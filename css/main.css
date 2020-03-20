@@ -47,6 +47,17 @@ p {
   color: #fff;
 }
 
+button {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+  border-radius: 2px;
+}
+
+button:hover {
+  background-color: #70ad55;
+  border-color: #70ad55;
+}
+
 footer {
   background-color: #70ad55;
 }
