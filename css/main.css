@@ -11,6 +11,34 @@ html {
   background-color: #fff;
 }
 
+span {
+  color: #70ad55;
+}
+
+.checks {
+  border-bottom: 1px solid #70ad55;
+}
+
+.radios {
+  border-bottom: 1px solid #70ad55;
+}
+
+.comments {
+  border-bottom: 1px solid #70ad55;
+}
+
+fieldset {
+  border: 0;
+}
+
+.person {
+  border-bottom: 1px solid #70ad55;
+}
+
+.ad {
+  border-bottom: 1px solid #70ad55;
+}
+
 h1 {
   color: #fff;
 }
@@ -23,13 +51,25 @@ footer {
   background-color: #70ad55;
 }
 
-@media only screen and (min-width: 960em) {
+@media only screen and (min-width: 60em) {
 
   .name {
     padding-right: .5rem;
   }
 
-  .age {
+  .date {
+    padding-right: .5rem;
+  }
+
+  .province {
+    padding-right: .5rem;
+  }
+
+  .pc {
+    padding-left: .5rem;
+  }
+
+  .nickname {
     padding-left: .5rem;
   }
 
@@ -37,8 +77,20 @@ footer {
     padding-right: .5rem;
   }
 
-  .fit {
+  .shirt {
     padding-left: .5rem;
+  }
+
+  .phone {
+    padding-left: .5rem;
+  }
+
+  .city {
+    padding-left: .5rem;
+  }
+
+  .street {
+    padding-right: .5rem;
   }
 
 }
