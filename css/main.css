@@ -1,8 +1,8 @@
 html {
-  font-family: "Noto Serif", sans-serif;
+  font-family: "Noto Serif", serif;
 }
 
-.green {
+header {
   background-color: #70ad55;
   width: 100%;
 }
@@ -15,28 +15,12 @@ span {
   color: #70ad55;
 }
 
-.checks {
-  border-bottom: 1px solid #70ad55;
-}
-
-.radios {
-  border-bottom: 1px solid #70ad55;
-}
-
-.comments {
-  border-bottom: 1px solid #70ad55;
+hr {
+  border: .5px solid #70ad55;
 }
 
 fieldset {
   border: 0;
-}
-
-.person {
-  border-bottom: 1px solid #70ad55;
-}
-
-.ad {
-  border-bottom: 1px solid #70ad55;
 }
 
 h1 {
@@ -47,13 +31,21 @@ p {
   color: #fff;
 }
 
-button {
+.name p {
+  color: #000;
+}
+
+.nickname p {
+  color: #000;
+}
+
+.btn {
   background-color: #6e8c62;
   border-color: #6e8c62;
   border-radius: 2px;
 }
 
-button:hover {
+.btn:hover {
   background-color: #70ad55;
   border-color: #70ad55;
 }
@@ -62,46 +54,46 @@ footer {
   background-color: #70ad55;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 608px) {
 
   .name {
-    padding-right: .5rem;
+    padding-right: .7rem;
   }
 
   .date {
-    padding-right: .5rem;
+    padding-right: .7rem;
   }
 
   .province {
-    padding-right: .5rem;
+    padding-right: .7rem;
   }
 
   .pc {
-    padding-left: .5rem;
+    padding-left: .7rem;
   }
 
   .nickname {
-    padding-left: .5rem;
+    padding-left: .7rem;
   }
 
   .email {
-    padding-right: .5rem;
+    padding-right: .7rem;
   }
 
   .shirt {
-    padding-left: .5rem;
+    padding-left: .7rem;
   }
 
   .phone {
-    padding-left: .5rem;
+    padding-left: .7rem;
   }
 
   .city {
-    padding-left: .5rem;
+    padding-left: .7rem;
   }
 
   .street {
-    padding-right: .5rem;
+    padding-right: .7rem;
   }
 
 }
