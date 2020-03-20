@@ -54,7 +54,11 @@ footer {
   background-color: #70ad55;
 }
 
-@media only screen and (min-width: 608px) {
+input {
+  border-color: #6e8c62;
+}
+
+@media only screen and (min-width: 38em) {
 
   .name {
     padding-right: .7rem;
